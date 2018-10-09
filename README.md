@@ -1,4 +1,4 @@
 My everyday.
-Done 
-Doing
-Come on!
+1.Done.
+2.Doing.
+3.Come on!
