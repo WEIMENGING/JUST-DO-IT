@@ -1,0 +1,8 @@
+1.机器学习学习了第四章决策树，决策树是基于树结构进行决策的，决策过程的最终结论对应了我们所希望的判定结果，决策树的生成是一个递归过程。我们希望决策树的分支结点所包含的样本尽可能榆树同一个类别，即结点的“纯度”。有三种指标：信息增益（值越小，纯度越高）、增益率以及基尼指数。有时决策树会出现过拟合情况所以需要剪枝处理来提升决策树的泛化性。有预剪枝、后剪枝，各有优缺点。连续与缺失值处理，多变量决策树，在书中会重复出现一个指标，只是该指标属性中值是改变了。除此之外老师讲了集成学习，bagging与boosting。
+2.看了论文A Threshold Anonymous Authentication Protocol for VANETs Jun Shao, Xiaodong Lin, Senior Member, IEEE, Rongxing Lu, Member, IEEE, and Cong Zuo。看了
+I. INTRODUCTION.
+II. MODELS AND DESIGN GOALS.
+III. PRELIMINARIES.里面讲了群签名、双线性组。
+IV. PROPOSED THRESHOLD ANONYMOUS AUTHENTICATION PROTOCOL里面讲了新的组签名方案与我们提出的阈值匿名验证协议。看到了新的组签名方案，里面具体的还没有看太明白。
+3.发现这个相对于我之前看的论文（目前来讲，还没有看相关工作部分，在第七节）来讲的创新点是每个车辆OBU会有自己的动态的阈值，车辆在每时每刻都可以改变阈值，这个阈值是群签名方案中在一个消息上签名的个数，只有达到这个阈值时车辆OBU才接受这个消息。
+4.计划看新的组签名方案、我们提出的阈值匿名验证协议以及后面的验证安全性等。
