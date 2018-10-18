@@ -1,0 +1,9 @@
+对于昨天疑问解决
+1.对于论文中这句话It is easy to see that the DDH assumption does not hold in a symmetric pairing. Hence, we need an asymmetric pairing for the proposed group signature scheme in this work.
+搜索了一下最相关的一条只看到https://en.wikipedia.org/wiki/Decisional_Diffie%E2%80%93Hellman_assumption，
+里面讲并不是我想要的答案，没有很理解。
+2.如果群成员没有获得群证书，则就不可以签名，所以这样群追踪员也就不可以使用签名来计算得出签名者的身份。
+分析安全分析部分（动态阈值与消息的可区分能力、高效的撤销、不可伪造能力、匿名性、可追踪性）在看（早上晚上有课，下午一直在搜索DDH假设不成立的情况给耽误了），
+计划明天
+1.继续分析论文剩下的部分！
+2.写比赛申请书！
