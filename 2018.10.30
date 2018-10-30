@@ -1,0 +1,14 @@
+1.开组会汇报论文，被提问
+a.双线性对的分类，我所知道的是有对称的与非对称的。
+其实再详细一点分类有如下（两个链接）https://en.wikipedia.org/wiki/Pairing-based_cryptography  
+https://hal.inria.fr/hal-00767404v2/document 
+个人觉得有道云笔记还是很好用的，如果遇到一个知识点很少可以记笔记但是如果太多想要保存着可以截图可以上传附件。
+b.阈值认证群签名这篇论文在TM处我的理解有点错误。
+我的理解是在系统当中有一个CA，然后有很多小群，每个群有一个TM，一个RSU，若干OBU，因为我在群签名方案中看到的就是这样一个管理员一个追踪员以及若干群成员。
+其实应该是一个TM对应多个RSU的。在模型图中可以看到一个TM箭头指向了两个RSU，这样也才符合逻辑，
+要不然每个群都有TM的话，CA中一直保持着来自TM的证书撤销列表的话，CA需要的工作量就会很大！
+所以以后看论文的时候需要正确的理清这种逻辑思路！
+2.最近几周有人工智能论文汇报，现在打算除了小组会需要汇报的论文（今天还没有确定看哪篇）外，计划也看这篇论文node2vec: Scalable Feature Learning for Networks 
+Aditya Grover Stanford University adityag@cs.stanford.edu
+Jure Leskovec Stanford University jure@cs.stanford.edu
+
