@@ -1,0 +1,13 @@
+一、机器学习学习了支持向量机与贝叶斯分类前几节！
+二、按照计划看了论文
+Distributed Aggregate Privacy-Preserving Authentication in VANETs
+Lei Zhang, Member, IEEE, QianhongWu, Member, IEEE, Josep Domingo-Ferrer, Fellow, IEEE,
+Bo Qin, and Chuanyan Hu
+的相关工作，我们的工作部分，了解到该论文是使用了更加现实的TPD。
+基于MTA-OTIBAS和MSS技术：
+multiple-TA OTIBAS（a one-time identity-based aggregate signature ）
+and the multiplicative secret sharing (MSS) technique
+1.	解决了密钥托管问题，没有单一的实体可以知道车辆的全部的秘密。
+2.	如果车辆被泄露，仅仅在该车辆所属RSU范围内的车辆不安全。
+3.	在攻击者获取足够的秘密之前，存储在TPD的秘密是可以更改的！
+计划明天接着看论文！
