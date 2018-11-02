@@ -1,0 +1,6 @@
+看了分布式聚合隐私保护身份认证中的第三部分MTA-OTIBAS方案
+整体上分为Root.setup、Lowerlevel.setup、Extract、Sign、与Aggregate-veriy几个阶段,回头再总结一下，对照着后面的安全性连贯起来！
+计划周末
+1.准备分组密码汇报的论文，制作PPT！
+2.准备IT伦理汇报!
+3.如果有时间再看关于社交网络（人工智能需要汇报的）论文
