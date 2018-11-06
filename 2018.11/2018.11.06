@@ -1,0 +1,36 @@
+1）Vehicular communication systems are networks in which vehicles and roadside units are the communicating nodes, 
+providing each other with information, such as safety warnings and traffic information. 
+They can be effective in avoiding accidents and traffic congestion. Both types of nodes are dedicated short-range communications
+(DSRC) devices. DSRC works in 5.9 GHz band with bandwidth of 75 MHz and approximate range of 300 m.
+[1] Vehicular communications is usually developed as a part of intelligent transportation systems (ITS).
+DSRC技术的特点
+1．通信距离一般在数十米（10m~30m）；
+2．工作频段：ISM5.8GHz、915MHz、2.45GHz；
+3．通信速率：500kbps/250kbps，能承载大宽带的车载应用信息；
+4．完善的加密通信机制：支持3DES、RSA算法；高安全性数据传输机制，支持双向认证及加/解密；
+5．应用领域宽广：不停车收费、出入控制、车队管理、车辆识别、信息服务等；
+6．具备统一的国家标准，各种产品之间的互换性、兼容性强；
+7．具备丰富的技术支持，产品多样化、专业化。
+DSRC基于IEEE 802.11p标准，该标准定义了IEEE 802.11标准（Wi-Fi的基础）的增强功能，以支持车辆中的无线接入。
+如今5G很难取代DSRC，因为刚开始投资所需要成本高。
+2）按照计划看了昨天上课同学讲的公钥基础设施PKI。
+证书管理机构（CMA）：CA和RA的统称。
+类似的还有将TA分为两个部分TRA 和 KGC，应该在平时看论文时进行总结一下！记录在有道云笔记，以便之后查阅！
+3）按照计划看了昨天上课讲的同态加密The purpose of homomorphic encryption is to allow computation on encrypted data.
+同态加密方案关注的是数据处理安全。也就是说，同态加密提供了一种对加密后的数据进行处理的功能。其他人可以对加密数据进行处理，但处理过程不会泄露任何原始内容。同时，拥有密钥的用户对处理过的数据进行解密后，得到的正好是处理后的结果。
+同态加密几乎是为云计算量身打造的！因为一个用户想要处理一个数据，但是由于他的计算机计算能力较弱。
+那么这个用户就可以使用云计算的概念，让云来帮他进行处理进而得到结果。缺点是如果直接将数据交给云，无法保证安全性。
+于是，他可以使用同态加密，让云对加密后的数据进行处理，并将处理结果返回给他。
+4）聚合签名：n(>1)个用户分别对n个不同的消息m进行签名，这n个签名可以被一个有效的算法聚合成一个短签名，
+验证方只需要检验聚合后的这一个签名便可以确认是该用户对消息m的签名。优点：聚合签名很大程度上减少了被验证签名的长度，从而提高了验证效率。
+在程文丽汇报的那篇论文中看到聚合签名部分，
+签名分为两个部分，前一部分是一个随机数乘一个生成元，只将后一分量进行求和，
+然后聚合签名就是（前一分量裂开有N个，然后最后是一个后一个分量所有的求和的一个结果），
+这里在求和的时候应该不需要加入一个因子避免两签名同时出错，因为有第一个分量存在！
+5）我看的论文没有进度，在看程文丽汇报的无证书聚合的那篇，
+有点迷惑，看到单验证签名者是RSU或者AS，不知道AS在这里起到什么作用，然而发现AS在这篇论文中只有验证用到了，并且在实体中并没有讲述AS，
+为什么收到签名的没有车辆呢，车辆之间通信也是可以互相验证消息的啊？
+后面在聚合验证中讲到AS验证聚合签名，对，聚合签名的话消息比较多，车辆验证应该相对麻烦，AS验证是合理的，
+但是具体AS验证了有什么用作呢，不应该是车辆收到消息吗？对，由此想到之前车辆验证消息的时候都是每个都是验证的吗？
+我上篇阈值认证的时候是每一个车辆有一个n，车辆根据n进行判断哪一个消息是发送给自己的。
+那么不使用n的话又是怎样认证呢，对所有消息还是怎样呢？这个收到消息是根据距离的吗？
