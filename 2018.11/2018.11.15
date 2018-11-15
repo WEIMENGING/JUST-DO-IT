@@ -1,0 +1,13 @@
+1.看了该论文前两部分
+2.之前很疑惑聚合签名与批验证的区别，但不知道本质区别是什么!
+https://max.book118.com/html/2018/0106/147586575.shtm
+这是关于聚合签名聚合签密的技术研讨，里面有讲2003年第一次提出聚合签名的概念，Aggregate and Verifiably Encrypted Signatures from Bilinear Maps
+摘要部分
+聚合签名方案是支持聚合的数字签名:给定n个不同消息上的n个签名(来自n个不同的用户)，可以将所有这些签名聚合为一个短签名。这个签名(以及n条原始消息)将使验证者确信n个用户确实签署了n条原始消息(即，用户i签署消息M i for i = 1，…本文引入了聚合签名的概念，提出了聚合签名的安全模型，并给出了聚合签名的几种应用。
+2004年Cheon提出第一个基于身份的批验证方案！
+一种全新的批验证协议如下
+https://wenku.baidu.com/view/abfbaa1e00f69e3143323968011ca300a7c3f63a.html
+在引言部分讲到在1994年Naccache第一次提出批验证的概念！
+Aggregate and Verifiably Encrypted Signatures from Bilinear Maps
+3.计划明天看一下
+先看1994年的批验证，再看03年的聚合！看后来提出聚合的想法！
