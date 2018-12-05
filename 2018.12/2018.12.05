@@ -1,0 +1,17 @@
+星期三
+1、关于基于身份的签密方案
+  1）我在写签密与解签密过程中出现一个问题是发送者选择了一个r，我们用r*AID，但是接受者并不知道r，
+  所以这里很疑惑，不知道怎么修改，带着这个问题
+  2）看了07年（老师您昨天发给我的）那篇签密论文。该论文在签密与解密之间巧妙地使用了CDH问题，所以接受者不知道r也是可以计算出来r*Y（那里是公钥），
+  但是AID就不可以！
+  3）继续看看这里怎么才可以实现接受者可以很好地解密！
+2、计划下面好好想想这个问题怎么处理！
+3、我找了一篇论文2区
+  IEEE TRANSACTIONS ON VEHICULAR TECHNOLOGY, VOL. 67, NO. 9, SEPTEMBER 2018 ，
+  Decentralized and Scalable Privacy-Preserving Authentication Scheme in VANETs
+  Shrikant Tangade , Member, IEEE, Sunilkumar S. Manvi , Senior Member, IEEE,and Pascal Lorenz , Senior Member, IEEE
+  本文提出了一种分散的、可扩展的车辆自组网隐私保护认证(DSPA)方案。该方案采用混合密码学。
+  在DSPA中，车辆到基础设施和车辆到车辆通信分别采用基于身份的非对称加密和基于HMAC的对称哈希消息认证码。
+  通过比较现有的基于PKI、基于id、组签名、批处理验证和HMAC的DSPA方案，进行了大量的仿真验证。
+  性能分析表明，与现有的认证方案相比，DSPA具有更高的效率、分散性、可扩展性和保密性。
+  看起来很复杂，但觉得如果这篇看懂了对自己会有很大帮助或提升，想找1区的没找到车联网中认证的（2018年），所以想让老师帮忙看下下次看这篇论文怎么样?
