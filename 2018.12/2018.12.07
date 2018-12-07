@@ -1,0 +1,26 @@
+1、HE老师的方案是基于身份的匿名方案，签密的那篇不是基于身份的，
+我下载的那篇是基于身份的签密但不是匿名的，所以结合起来比较困难，
+又找了一篇论文（基于身份匿名签密方案）A Fully Anonymous Identity-Based Signcryption Scheme in the Standard Model
+（In this paper, we propose a new primitive, fully anonymous signcryption,
+which provide anonymity of both sender and receiver, 
+and construct a fully anonymous identity-based signcryption scheme in the standard model.）
+但并没有使用假名身份，并不适合我们想要的场景（RSU知道车辆的真实身份）！
+2、后来想到几种方法（整理一下看看是否真的不可以，也就是中午请教老师的）
+1）按照老师讲的跟TPD生成私钥一样，TPD使用系统私钥计算OBU的私钥，但是RSU却没有系统的私钥，所以不行。
+2）RSU的公私钥为（XRSU,IDj），TA根据预先设定的RSU的身份IDj
+ （这个身份我想的是TA预先给它离线设置的，关于RSU怎么向车辆证明自己就是RSU这个问题，是通过其中RSU选择的随机数，约定达成），
+  给RSU分发一个秘密值s，然后RSU计算私钥XRSU =（使用这个秘密值s，使用之前离线设置的身份IDj进行计算）
+3）根据我之前看的一篇论文（张磊老师的），一个TA生成两个系统私钥，两个系统公钥，只有拥有两个系统私钥才可以追踪到车辆的真实身份，
+  两个私钥的用处是一个用来放在TPD中，另一个私钥用来给RSU，让RSU来根据RSU身份IDj来生成自己的私钥（这里RSU不需要匿名，所以只有真实身份）。
+  请教老师问题，老师讲到基于身份基于身份的密码体制，我搜了一下截取部分内容：
+让公钥就是用户的身份，所谓身份，就是指一串跟用户相关的有意义的数字，比如身份证号，姓名，邮箱地址等等。
+加密者在加密的过程中，不需要使用一堆无意义的数字组作为公钥了，而是使用接收者的身份进行加密。
+举个例子，比如我的邮箱是footman_900217@126.com，有人想给我发送加密密文的话，就用footman_900217@126.com作为公钥进行加密。
+这样一来，加密者就不需要像可信第三方询问接收者的公钥了，这为公钥信息的管理提供了极大的便利。
+1984年，Shamir（就是RSA加密体制中的那个S）提出了身份基密码体制的思想（Identity-Based Cryptosystem），
+并且构造了身份基签名体制（Identity-Based Signature，IBS）。即，签名体制中的公钥是用户的身份，验证签名时，验证者使用签名者的身份作为公钥进行验证。
+这样的话我想的方法应该是符合于基于身份的。
+3、请教机器学习方向的同学，其中一篇论文的代码实现了。
+4、计划接下来
+1）把自己对匿名基于签名的签密方案梳理出来，看哪一种可以走的通！
+2）看机器学习另一篇论文，制作PPT，把另一篇代码实现起来！
