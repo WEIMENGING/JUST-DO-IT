@@ -1,0 +1,17 @@
+补充昨天：有个忘记讲了，是如果整个方案运行起来，也运行别人的整个方案，这样对比是不公平的，因为学长讲每次模拟都会有很多误差，所以如果想整个实现，不对比可以，对比的话就会不公平，因为模拟每次都可能不一样。如果计算比如哈希平均用了多长时间，最后计算，这样求平均值可以与其他方案进行对比，比较公平。
+1、安装好了OMNET++5.1.1，
+首先看了视频关于OMnet++
+https://www.bilibili.com/video/av4816753/
+讲解tictoc入门，NET文件中都包含网络定义，包含简单模块与网络，相应的代码在.cc中，并且看了运行过程结果！有两个节点，在一个网络中，传输消息的过程，次数是在.cc文件中定义的！
+并且熟悉了界面，各表示什么含义！
+2、根据这个说明https://blog.csdn.net/sunaxp/article/details/82764711
+下载了对应版本的SUMO，但是Veins只有下载到最新版！
+3、下下次是我汇报，找了两篇论文，都是2区的，想选一个作为重点看，应该对写论文也会有帮助，
+Future Generation Computer Systems 84 (2018) 216–227
+A robust and efficient password-based conditional privacy preserving
+authentication and group-key agreement protocol for VANETs
+SK Hafizul Islam a,*, Mohammad S. Obaidat b, Pandi Vijayakumar c, Enas Abdulhay d,Fagen Li e, M Krishna Chaitanya Reddy f
+与
+Vehicular Communications9(2017)19–30，A survey on authentication schemes in VANETs for secured communication 
+Sunilkumar S.Manvia, ShrikantTangadeb,∗
+4、计划看签密方案，看tictoc源代码，新论文，把我好时间分配！
