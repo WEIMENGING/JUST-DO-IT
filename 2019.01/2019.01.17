@@ -1,0 +1,9 @@
+1、看了论文Future Generation Computer Systems 84 (2018) 216–227
+A robust and efficient password-based conditional privacy preserving
+authentication and group-key agreement protocol for VANETs
+SK Hafizul Islam a,*, Mohammad S. Obaidat b, Pandi Vijayakumar c, Enas Abdulhay d,Fagen Li e, M Krishna Chaitanya Reddy f
+创新点是由车辆的登录，车辆可以修改密码，车辆退出组（RSU下的），含有组键，不使用椭圆曲线不使用双线性对，看到了方案部分，方案还没有具体看！
+2、实验：看了OMNeT++中文手册，有224页，发给学弟了，主要介绍的是是编程向导。NED 语言,仿真的概念和他们在OMNet++中的执行,
+如何写一个简单的模块并描述了类库等，本手册简单描述了许多数据测绘程序,以及如何使用OMNet++。
+发给他那篇何老师的论文，我想让他对车联网的背景实验有了大概了解，相关工作与安全性证明没让他看，想明天找时间与学弟交流一下关于做实验如何进行！
+3、计划明天再整理一下方案的相关工作，用自己的语言引用总结，这样避免重复率太多！复习看的论文，制作今天看的部分的PPT！
