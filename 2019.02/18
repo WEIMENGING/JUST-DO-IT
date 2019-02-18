@@ -1,0 +1,26 @@
+2019.02.18星期一
+一、之前看了论文A robust and efficient password-based conditional privacy preserving
+authentication and group-key agreement protocol for VANETs
+SK Hafizul Islam a,*, Mohammad S. Obaidat b, Pandi Vijayakumar c, Enas Abdulhay d,
+Fagen Li e, M Krishna Chaitanya Reddy f
+Future Generation Computer Systems 84 (2018) 216–227
+是基于密码以及使用了组密钥协议，创新点总结如下：
+1.针对无CA-PKC和ID-PKC的协议，提出了一种新的PW-CPPA-GKA协议。此外，协议是基于哈希函数的，可以在没有双线性对和椭圆曲线的情况下实现。
+2.详细的安全性分析表明，协议提供了足够的安全性、私密性和功能性需求。协议提供组密钥生成、用户离开、用户加入和密码更改功能。组密钥的更改满足前项与后项安全性。
+3.对提出的协议进行了对比分析，结果表明该协议比针对 vanet 的CPPA协议具有更好的鲁棒性和高效性。组密钥生成过程只需要存储两个数字，所以需要更少的内存。
+
+二、但是在性能分析中与其他的方案对比计算效率不是很高，陶雪飞师兄在论文中也有讲到
+HCPA-GKA: A hash function-based conditional privacy-preserving authentication and group-key agreement scheme for VANETs
+JieCuia,b,c, XuefeiTaoa,b,c, JingZhanga,b,c, YanXua,b,c, HongZhonga,b,c,∗
+Vehicular Communications（2018）
+今天看了这篇论文，师兄说就是按照基于密码的写的，区别在于师兄的这个没有密码更改功能，其他满足的安全性都是一样的，不一样的地方是，在基于密码的那篇论文在组密钥生成阶段，车辆进组离开组组密钥更新阶段有点复杂，而学长的论文使用了中国剩余定理很容易的实现了组密钥的生成分发以及更新！除此之外，师兄给出了预言机模型下的安全性证明！
+
+三、前几天看的ANEL: A Novel Ecient And Lightweight Authentication Scheme for Vehicular Ad Hoc Networks
+Zakarya Benyaminaa,, Khelifa Benahmeda, Fateh Bounaamaa
+之前老师给发的，这篇论文创新点是该方案提供了生物密码认证、密钥和密码更新。
+轻量级只是用了哈希与位异或操作便可以实现。
+该论文详细介绍了OBU模型。TA可以实现对车主以及车辆的双重认证
+也使用了CRT来实现生成以及更新组密钥。
+
+这三篇论文有很多相似之处，周四汇报基于密码的那篇，计划明天再看看基于密码的，之后再三篇一起对比，看基于密码的如何更好的运用到我们的方案当中。
+周四汇报后，计划看云辅助那篇论文，之前没有看过关于云的，想看看怎么有没有可以利用的点！
