@@ -1,0 +1,9 @@
+03.01 星期五
+1、Secure and Privacy-Aware Incentives-Based Witness Service in Social Internet of Vehicles Clouds
+IEEE INTERNET OF THINGS JOURNAL, VOL. 5, NO. 4, AUGUST 2018
+Rasheed Hussain , Donghyun Kim , Junggab Son , Jooyoung Lee, Chaker Abdelaziz Kerrache ,Abderrahim Benslimane , and Heekuck Oh
+找了这一篇论文看，使用了云，我们可以用边缘取代，并且假设每个车辆都有摄像头的，是可以拍照上传到云中，并且这样对车辆是有激励的！
+上面是上午写的
+
+2、和丁龙交流发现进化签名挺好的，因为比如说发送堵塞消息这部分不需要加密，对违章消息需要加密，但是都需要签名，如果对不需要加密的消息不加密就会减少很多麻烦！
+3、计划是看刘辉老师那篇论文，还有魏璐那篇论文是怎么写的边缘设备！
