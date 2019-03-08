@@ -1,0 +1,14 @@
+03.08 星期五
+今天继续看了上次发的
+Chimera: An Energy-Efficient and Deadline-Aware Hybrid Edge Computing Framework for Vehicular Crowdsensing Applications
+IEEE INTERNET OF THINGS JOURNAL, VOL. 6, NO. 1, FEBRUARY 2019
+Lingjun Pu , Xu Chen , Member, IEEE, Guoqiang Mao, Fellow, IEEE, Qinyi Xie, and Jingdong Xu
+本文的主要贡献如下:
+我们提出一个混合边缘计算框架包括一个创新的任务排队模型三种任务处理模式在车辆管理已被称作异类群体感知应用程序(第三部分)。
+在这种情况下,我们制定一个小说multivehicle和多任务卸载问题旨在减少能源消耗的全网招募车辆服务已被称作异类群体感知的应用程序,
+同时在长期(第四节)中协调应用延迟和车辆激励。
+调用了Lyapunov优化框架来实现
+TaskSche是一种高效的在线任务调度算法，它只利用每个时隙的当前系统信息(第五节)。作为该算法的核心组件，
+设计了一个基于图变换的任务工作负载分配策略和一个基于knapsack的VM池资源分配策略。此外，我们还对框架扩展进行了一系列的讨论(第六部分)。
+看了，也没懂。也没有自己需要用的点。
+计划下一步将讨论的方案写出来！
