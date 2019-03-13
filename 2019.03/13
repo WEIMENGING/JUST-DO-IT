@@ -1,0 +1,10 @@
+03.13 星期三
+1、看了Identity-Based Encryption from the Weil Pairing这篇论文（老师您发的），刚开始看的是您的，发现没有安全性证明，又找了详细版的文献参考2，
+之前看的都是具体的算法，基于身份加密方案一般情况下分为四步，看过对基于身份了解更深一步。
+2、在BasicIdent 里面当根据身份计算私钥时构造是不一样的，之前师姐在组会上讲过一种最安全的私钥构造方式就是何老师的那篇，但是对应的没有对消息的加密。
+3、找到《公钥密码学》，之前借老师您的那本书。其中里面有一个Sakai-Kasahara密钥生成算法。看了在私钥提取阶段又是不一样的构造方式。
+之前看的论文，构造方式比较单一，比如对LEE与LAI改进的方案，以为基于身份私钥的生成都是HE老师那种。
+4、现在主要做的事找到有安全性证明相对应的私钥构成方式。所以找了论文只看方案本身以及是否有安全性证明。
+5、找了Identity-Based Encryption with Cloud Revocation Authority and Its Applications
+IEEE TRANSACTIONS ON CLOUD COMPUTING
+Yuh-Min Tseng , Tung-Tso Tsai, Sen-Shan Huang, and Chung-Peng Huang
