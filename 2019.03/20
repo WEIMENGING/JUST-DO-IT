@@ -1,0 +1,9 @@
+ 03.20 星期三
+1、看2001年详细版的基于身份加密那篇论文，引理里面讲基于身份BasicFullIdent的优势，基于公钥BasicPub的攻破优势，并且证明了这种变化，优势是不一样的，有具体的式子，还是不理解！本来想直接使用里面基于身份的构造，但是里面没有直接对应的求解优势与证明。
+2、看我引用的那篇（之前让老师看了，一区的可撤销的基于身份的加密方案），看是如何证明优势的式子是这样的，即，是一个困难问题！
+3、（一区的可撤销的基于身份的加密方案）那篇，看到攻击者分为两类，一个是撤销的用户（假设就该攻击者已经被撤销，想要解密在某个时间发送给他的密文），一个外部攻击者或者云撤销服务器！这些安全模型与我们的情况不符合，所以安全性证明也没有办法借用！但是如果我们连撤销也借用的话，也使用云撤销权威中心，就不需要大修改，但是不知这样妥不妥。
+4、对于我们的方案，想请教一下该是有加密的还是签名体制的可证安全呢？咱们的签名我是仿照着he老师那篇写的，如果是签名体制的可证安全就仿照He老师TIFS那篇。
+5、关于汇报论文，我是下周，想再汇报一篇！但是还没找到好的论文，明天暂时先看看
+Secure and Privacy-Aware Incentives-Based Witness Service in Social Internet of Vehicles Clouds
+IEEE INTERNET OF THINGS JOURNAL, VOL. 5, NO. 4, AUGUST 2018
+Rasheed Hussain , Donghyun Kim , Junggab Son , Jooyoung Lee, Chaker Abdelaziz Kerrache ,Abderrahim Benslimane , and Heekuck Oh
