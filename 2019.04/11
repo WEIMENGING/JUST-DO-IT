@@ -1,0 +1,20 @@
+2019.04.11 星期四
+一、安全性证明在我对这篇方案改进的这篇（TIFS）,安全性证明从两个方面来考虑的的：1）恶意车辆（UF-SI-CMA）密文对选择性身份和选择消息攻击的不可伪造性。2）好奇的云服务器（OW-CCA2）基于自适应选择密文攻击的单向保密。没有给出详细的证明，只是在两类攻击中分别引用了两个参考文献，对于UF-SI-CMA引用了Efficient Hierarchical Identity-Based Signature With Batch Verification for Automatic Dependent Surveillance-Broadcast System
+IEEE TRANSACTIONS ON INFORMATION FORENSICS AND SECURITY, VOL. 12, NO. 2, FEBRUARY 2017
+Debiao He, Neeraj Kumar, Member, IEEE, Kim-Kwang Raymond Choo, Senior Member, IEEE, and Wei Wu
+1）这篇17年也是ITFS,想看为什么可以发这么好,看到其实就是对一个方案的改进，并且其中具体方案很像15年ITFS那篇，不使用哈希到点，使用批量验证，也是基于身份的，除此之外可以实现可扩展性（因为相当于在TA下面有了一个小的TA，就像我们的TA下面有很多个TCD一样），满足安全性！
+2）看了具体方案，在初始化的时候选择了两个生成元P,Q,在计算主公钥的时候使用的是P，而在后面为下层TA以及下层TA注册的时候计算他们的私钥的时候使用的是点乘Q,在验证的时候使用了双线性配对，过程就是存在有P与Q的交换，我有点不理解为什么要这么构造，看到安全性证明是最后构造出aP,bP,计算abP.构造很巧妙！（我想在下周老师有时间的时候好好请教一下这里的区别，我的构造方式和他略不同，有的是mod q,有的点乘生成元，还是因为只是选择不一样，这些基础性的东西感觉还是不是真正的明白，也需要再在书上查找吧。）看懂安全性证明需要明白这里面是如何凑出来的，这样才能对其进行根据自己的方案进行改写！
+3）我想要引用的那篇带有源认证（这是他本文的三个创新点之一），而HE老师的这篇没有，在私钥提取阶段上级根据身份提取私钥后，对方并没有对这个私钥进行认证，这也是一般的论文的构造，所以我引用的那篇论文说有源认证。
+4）在安全模型里面采用了Security Arguments for Digital Signatures and Blind Signatures
+David Pointcheval and Jacques Stern
+J. Cryptology (2000) 13: 361–396别人的签名方案的安全模型，
+
+对于OW-CCA2引用了Probabilistic Public Key Encryption with Equality Test
+J. Pieprzyk (Ed.): CT-RSA 2010, LNCS 5985, pp. 119–131, 2010.
+Guomin Yang1, Chik How Tan1, Qiong Huang2, and Duncan S. Wong
+困难问题都是CDH，我们的是ECCDHP.
+二、开会
+让大师姐帮忙看了下论文，
+1）说匿名身份的生成（和之前的我们说好的不变的那个匿名与真实身份的转变），说如果一个车辆使用别人的匿名身份发送消息那么如果恶意，这样追踪就追踪到原本无辜的车辆了。这是个问题
+2）还有一个问题是在加密过程改成点乘，有一个点是两个数乘，这里没有修改好，但是后来看我觉得也无妨，因为可逆出来也就只是哈希函数，还是求不出来M，回头组会再跟师姐讲一下。
+三、计划，看我引用的方案的安全性证明里面引用别人的那两篇安全性证明！
