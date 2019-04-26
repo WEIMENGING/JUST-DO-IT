@@ -1,0 +1,8 @@
+2019.04.26 星期五
+1、激励的那篇论文，在假名生成阶段中的一部分我还是有点不明白！不是我之前讲的假名与激励有关，之前看是激励因子，
+但是在激励兑换的时候似乎是没有关系的，只有在撤销时对真实身份的追踪才有用到，但是也没有真正的用到里面的内容，
+有秘密计算器secret counter与递增系数incrementing factor。DMV利用车辆V的秘密计数器uV生成n个假名，并利用车辆V的递增因子oV递增假名。
+DMV将这些假名存储在其数据库中，并将其索引为n。
+2、在看REPSYS: A robust and distributed incentive scheme for in-network caching and
+dissemination in Vehicular Delay-Tolerant Networks
+Naercio Magaia∗†, Zhengguo Sheng†, Paulo Rogério Pereira∗, Senior Member, IEEE,Miguel Correia∗, Senior Member, IEEE∗INESC-ID, Instituto Superior Técnico, Universidade de Lisboa
