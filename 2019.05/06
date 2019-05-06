@@ -1,0 +1,12 @@
+2019.05.06 星期一
+一、Secure and Privacy-Aware Incentives-Based Witness Service in Social Internet of Vehicles Clouds
+IEEE INTERNET OF THINGS JOURNAL, VOL. 5, NO. 4, AUGUST 2018
+Rasheed Hussain , Donghyun Kim , Junggab Son , Jooyoung Lee, Chaker Abdelaziz Kerrache ,Abderrahim Benslimane , and Heekuck Oh
+1、明白了假名中那个字母存在的意义就是让假名变得不一样！意思是用来实现假名的更换（这个字母中的ni表示的是该车辆当时匿名的数量，有Ov表示递增因子，Uv表示秘密计数器，a=Uv+ni Ov）.
+2、在追踪的时候我有个疑问是加入TCD为车辆选了密钥，那么当TCD收到消息知道发来消息的车辆的匿名身份可以对应到相应的车辆的私钥吗？如果可以对应上就不需车辆在发送消息里附带关于私钥的密文，如果对应不上就需要，因为TCD在追踪车辆的真实身份需要使用车辆的私钥！
+3、此外，在TCD根据车辆发来对车辆私钥的密文时，TCD想要解密需要知道系统私钥，所以这里想要在线下TA将系统的私钥预加载给TCD，这样应该可行的吧，因为TCD也是完全可信的。不让TA追踪的原因是，想让TA在系统中只是初始化，授权给TCD权利让TCD去分布式做一些任务。
+二、REPSYS: A robust and distributed incentive scheme for in-network caching and dissemination in Vehicular Delay-Tolerant Networks
+Naercio Magaiay, Zhengguo Shengy, Paulo Rogério Pereira, Senior Member, IEEE,Miguel Correia, Senior Member, IEEE
+1、这篇论文是使用信誉机制来激励车辆存储与转发对别的车辆有用的消息包，每辆车互动的决定取决于另一辆车的声誉，基于改进的贝叶斯方法使用贝塔分布，并使用贝叶斯决策理论对车辆分类。先验分布建模，最初，每辆车都分配一个先前的测试版贝塔，会随着新的观测结果的出现而更新，衰减机制允许逐渐遗忘旧的观测结果。当行为好，阿尔法+，当行为恶意，贝塔+,当车辆i发给j,会收到j带i的反馈消息……如果想要用可以使用两个参数对车辆发出的消息的真实度进行表示，如果是好的行为就阿尔法+（根据上报事情的重要性进行加分），如果是撒谎就贝塔+（根据上报事情的危害程度来进行加分）！
+三、在做PPT,本周四小组会汇报
+四、计划明天上午把上面的想法写出来，下午晚上都有课！
