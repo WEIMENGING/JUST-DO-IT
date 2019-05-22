@@ -1,0 +1,4 @@
+2019.05.22 星期三
+1、关于恶意的车辆不可以假冒其他车辆汇报路况消息，回看安全性证明，在原文中Privacy-Preserving Cloud-Based Road Condition Monitoring With Source Authentication in VANETs介绍的，（提到与它所引用何老师Efficient Hierarchical Identity-Based Signature With Batch Verification for Automatic Dependent Surveillance-Broadcast System安全性证明）
+疑问：在后面总感觉有个地方错误，u1,u2,u3中包含y，倒是没有看出来包含y,说完这句话就说因此只有RA（拥有z，W=g的z次方）可以解密。这样的话是W包含在内，但是也就只有u2中包含W.
+2、计划上午把有关于哈希函数的访问写出来，明天下午以及后天是之前和老师您说的请假有事！ 
