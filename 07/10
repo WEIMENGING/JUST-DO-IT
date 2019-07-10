@@ -1,0 +1,13 @@
+2019.07.10 星期三
+1、这是之前说的名字Efficient Privacy-Preserving Edge-Based Road Condition Monitoring in VANETs，
+用在5G环境下可以将in VANET改成for 5G Vehicular Networks.名字经过推敲最后再确定也可以，加上5G也是只是看到别人论文中在5G的环境下的名字是这样的。
+2、由于5G环境下与DSRC协议是不一样的，所以模型图也有所不同，比如无线是mmWave.
+3、对于更好介绍方案，更容易的更别人理解，我想的是在这方便有两个图，一个是系统模型图，概括性的，一个是具体的交互，看到过在别人的论文中这样介绍过。
+4、最近任务，整理各个符号所表示的含义，用一个表格表示，然后画出模型图，再画反映出对所提方案对多个阶段的高层次描述的图。大概先画出了草图。
+先放着，想再看两篇再连同引言一起同步进行。最后再使用Visio画出来。
+5、找到了相关的论文，但不多有三篇，最可借用的两篇是Cloud-Assisted Real-Time Road Condition Monitoring System for Vehicles.
+Mohamed Akram Ameddah, Bhaskar Das, Jalal Almhana Universite de Moncton.
+IEEE Globecom 2018
+A Privacy-Preserving Vehicular Crowdsensing-Based Road Surface Condition Monitoring System Using Fog Computing.
+Sultan Basudan, Xiaodong Lin, Fellow, IEEE, and Karthik Sankaranarayanan.
+IEEE INTERNET OF THINGS JOURNAL, VOL. 4, NO. 3, JUNE 2017
