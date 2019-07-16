@@ -1,0 +1,7 @@
+2019.07.16 星期二
+1、写了三个创新点。因为想要围绕着创新点去写其他的部分。
+2、写了摘要。
+3、看论文，其中Cloud-Assisted Real-Time Road Condition Monitoring System for Vehicles
+Mohamed Akram Ameddah, Bhaskar Das, Jalal Almhana Universite de Moncton Department of Computer Science Moncton, NB, Canada E1A 3E9 
+Email: fema3944, bhaskar.das, jalal.almhanag@umoncton.ca使用了机器学习方法，整体思路使用垂直安装在车辆上的智能手机的加速度传感器检测给定道路的质量，使用的是机器学习方法，将消息发送到云服务器上……本文的侧重点也是在机器学习的方法上，设计了一种实时了解路况的算法，设计到的路况内容更加具体！而我们的侧重点是保护车辆身份与所发的消息内容，这个消息具体是什么并不需要详细阐述。主要是提升消息验证效率等。
+但还是借鉴一部分内容的，也可以引用部分！这篇论文是会议，每个部分比较简短！（关于路况监测的论文真的很少，并且这篇还不是关于隐私保护的）
