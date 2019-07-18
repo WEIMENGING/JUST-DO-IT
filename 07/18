@@ -1,0 +1,11 @@
+2019.07.18 星期四
+1、又详细看了A Privacy-Preserving Vehicular Crowdsensing-Based Road Surface Condition
+Monitoring System Using Fog Computing
+ Sultan Basudan, Xiaodong Lin, Fellow, IEEE, and Karthik Sankaranarayanan
+（使用了签密、聚合认证）（回想一下总觉自己的写的也是签密呢，有加密，同时也会签名。）
+因为这篇论文的首要创新点是将雾的概念引入，在模型当中将RSU作为雾设备，因为我看的基于边缘的只有魏璐师兄的，在这方面不擅长去介绍，
+所以想要参考着这篇，比如说基站作为边缘设备！在模型当中还是需要有云服务器的！之前的设计中就给忽略掉了，不过不提不代表没有，只是侧重点不同。
+这这篇论文中云服务器可以存储历史信息以备以后利用。RSU是作为雾设备，然后将最终结果传给云，这样的话和我们设计的模型有点像啊，我们的不是云，是TCD。
+发现文中的一个缺点是车辆使用了匿名但是并不可以实现追踪！
+2、之前看到如何写论文的PPT上面有讲在摘要中不写没用的，现在仔细看了这篇论文很有体会！知道了最后再写摘要的原因！
+3、计划着明天写！
