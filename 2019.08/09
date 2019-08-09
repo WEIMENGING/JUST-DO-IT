@@ -1,0 +1,11 @@
+2019.08.09 星期五
+1、修改了方案的布局，相应调整了对方案每个阶段的高层次的描述图。
+2、在加密与解密中，实现了不泄露随机数s的情况下TCD可以对解密得到的M进行完整性检测。
+3、稍微对贡献点修改了一下。
+4、匿名生成的过程确定使用简单版的，因为发表在IOT的那篇论文（带有激励+匿名交换
+Secure and Privacy-Aware Incentives-Based Witness Service in Social Internet of Vehicles Clouds
+IEEE INTERNET OF THINGS JOURNAL, VOL. 5, NO. 4, AUGUST 2018
+Rasheed Hussain , Donghyun Kim , Junggab Son , Jooyoung Lee, Chaker Abdelaziz Kerrache , Abderrahim Benslimane , and Heekuck Oh），
+我实在没有发现贡献点，贡献点是匿名交换，可是匿名交换的过程也太过于复杂，虽然看起来高大上，但是看几遍发现还是很low，
+起初我借用的原因是认为其中OV,UV的激励政策有关的，误以为车辆好的行为越多，匿名越多越安全，其实不然。
+5、计划下一步修改匿名的生成过程这一部分，修改成简单版的。
