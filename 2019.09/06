@@ -1,0 +1,7 @@
+2019.05.06 星期五
+1、主要看了魏璐师兄的笔记，学习了一些关于实验中基本概念：module、simple module、compound module. Gate（有三种类型：输入、输出、进出）.
+   Connection :被用来模快的链接。
+   Message. 
+   Channel: 通道封装了与connection相关的参数和行为（有三种：ned.IdealChannel不对通道做任何处理，ned.DelayChannel通过delay属性设置消息的传播延迟，另一个属性disabled=ture 表示丢弃所有消息，ned.DatarateChannel使用datarate属性定义通道的数据速率，ber定义字节错率，per定义包错率）.
+   Parameter: 参数可以从NED文件或配置中获取它们的值。还有模拟的理念。
+2、还没有仔细看对应的代码部分，所以所理解的概念也只是字面意思，计划下一步再看看魏璐师兄中实验积累的一些笔记！
