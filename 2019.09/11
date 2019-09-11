@@ -1,0 +1,15 @@
+2019.09.11 星期三
+1、主要看了新的论文（昨天汇报的有介绍）相关工作，与我的论文在表述上由很大相似，认证，过滤冗余消息……所以可以参考着修改我的论文，
+  如果不看新的论文感觉修改遇到了瓶颈期，看新的论文会产生新的想法，会怎样的逻辑表达更好，或者同样的内容换个表达方式表达更清楚！
+  比如说“Unfortunately, the duplicate messages collected by vehicles are not fifiltered, which still occupies a great deal of 
+  both redundant computational and bandwidth resources.” 
+ 可以借鉴，说明了过滤掉冗余消息的必要性，或者说过滤掉冗余消息对于系统来说作用很大！
+  再比如“Unfortunately, it disables to handle the emergency cases where LBS messages need realtime authentication.”
+ 表达更加贴切，也不是说一个方案不适合，只是在紧急的时候不适合！
+2、根据老师说的对论文进行了修改！改过简洁很多，从读者的角度去想怎么表达，主动还是被动，有些表达多余也会让读者失去耐心吧！
+3、看了新论文的预备知识，比如“It is of an overwhelmingly high probability that the vehicles passing by the same road section would generate and broadcast the same (duplicate) LBS contents about its surroundings”这样，所以才有必要过滤冗余消息的。
+  再比如“ The OBU devices equipped on vehicles are assumed to be resourceconstrained and vulnerable to various attacks.”
+ 可以借用部分表达，说车辆有有限的计算能力、资源，汇报路况对车辆来说是一种消耗，所以才有加入激励的必要性！
+  还有“The RSUs  and the cryptographic service provider (CSP) works under the semi-trusted environment and cannot collude with each other. ”
+ 说明半可信的实体不可以与其他进行合谋。
+4、计划明天看方案了解一下，同时学习实验！
