@@ -1,0 +1,8 @@
+2019.09.16 星期一
+1、Win10下编译miracl包(大数运算函数库的生成)。https://blog.csdn.net/Baron_wu/article/details/83151473
+安装软件VC6.0
+win10系统下cmd调用cl编译器编译c++环境变量配置https://blog.csdn.net/u013166622/article/details/52843959
+但是给出提示mspdb60.dll丢失
+搜索解决办法https://blog.csdn.net/developinglife/article/details/6393400
+但还是不一样……中间遇到点问题…是应该安装VS…明天请教一下师兄！
+2、计划看那篇论文具体方案！
