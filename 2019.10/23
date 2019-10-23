@@ -1,0 +1,15 @@
+2019.10.23 星期三
+1、修改掉了ECC，修改我们论文中的计算成本。实验数据发现批验证在消息再多的时候我们的成本低于另一篇中的，因为哪一篇使用了聚合。
+ 我在想需要把批验证去掉吗？去掉也是合理的，因为我们的贡献点算是在边缘计算节点去冗余这里，后面有多个消息的等价性测试以及我们只需要解密一个消息。
+ 所以多个消息考虑这两点突出创新点，而加上批验证有点干扰并且没什么用，需要舍弃批验证也不要进行多个消息的验证对比了！
+ 我觉得这样好一些，所以把批验证这一部分舍去了。
+2、路况（百度）包括道路的情况（指路面、交通流量等），而在我的语言描述中好像特别指的是路面，
+我计划下一步想修改一下，补充，更加说明路况监控的必要性，比如说某个路口拥堵，很多车辆进行汇报，这是很正常的，当TCD收到后会根据实际情况对路灯进行调整。
+3、车联网小组会汇报，19级汇报了08年的论文，
+ECPP: Efficient Conditional Privacy Preservation Protocol for Secure Vehicular Communications
+This full text paper was peer reviewed at the direction of IEEE Communications Society subject matter experts for publication in the IEEE INFOCOM 2008 proceedings.
+Rongxing Lu, Xiaodong Lin, Haojin Zhu, Pin-Han Ho and Xuemin (Sherman) Shen
+Department of Electrical and Computer Engineering University of Waterloo, Waterloo, Ontario, Canada N2L 3G1
+主要解决具有权限可跟踪性的安全消息的匿名身份验证问题。
+4、还需要在预备知识中添加双线性配对的性质。
+5、计划看安全性证明部分，主要是检查修改过来的要符合我的论文中。
