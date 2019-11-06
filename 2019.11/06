@@ -1,0 +1,3 @@
+2019.11.06 星期三
+1、再看之前那篇论文TIFS的，LPPA: Lightweight Privacy-Preserving Authentication From Efficient Multi-Key Secure Outsourced Computation for Location-Based Services in VANETs，公式太多，很复杂，想尽快看懂，但不适合在大组汇报。（我是在20天汇报，还没找到适合汇报的）
+2、开小组会，研一的学妹汇报了一篇车网络中基于加强学习的数据存储方案（发表在TVT上的）。主要就是车辆和车辆的通信，寻找一个车辆存放数据。寻找车辆的标准使用了模糊逻辑（比如车辆的速度，方向以及信道状态作为其中考虑的因素），算出最优的存储节点（模糊逻辑和魏璐之前写的一篇有点像）。这一篇中没有使用密码学知识，知识把机器学习放在车联网环境下。
