@@ -1,0 +1,8 @@
+
+2019.11.25 星期一
+1、A. Malhi and S. Batra, “Privacy-preserving authentication framework using bloom filter for secure vehicular communications,” 
+Int. J. Inf. Secur., vol. 15, no. 4, pp. 433–453, Aug. 2016.
+把这个放在了PPT的相关工作中，这篇论文使用了聚合签名与过滤器，但是这个聚合签名不是聚合签名，里面也有说到是批验证。
+这里的过滤器有两个，一个存储的是MAC地址，一个存储的是匿名身份，当这两个同时被记下时，那么当再次收到这个MAC地方与匿名身份发来的消息就无需进行验证，进一步改进了验证的过程。
+2、审稿，这篇论文的创新点好像不太够。使用中国剩余定理更新组密钥实现前项与后项安全性，陶雪飞师兄也写了一篇这样的论文，使用了过滤器，
+魏璐师兄在论文中也有用到，引用了我们大组的六篇论文，再看看吧。
