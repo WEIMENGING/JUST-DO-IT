@@ -1,0 +1,10 @@
+2019.12.09 星期二
+一、Shim, K. A. (2017). Comments on" A Cross-Layer Approach to Privacy-Preserving Authentication in WAVE-Enabled VANETs" by Biswas and Mišić. 
+IEEE Transactions on Vehicular Technology, 66(11), 10588-10589.
+指出：Biswas, S., & Mišić, J. (2013). A cross-layer approach to privacy-preserving authentication in wave-enabled vanets. 
+IEEE Transactions on Vehicular Technology, 62(5), 2182-2192.
+中存在的问题如下：
+1、标准的公钥签名ECDSA揭示了签名者的实际身份，就隐私而言，这是不可取的。无条件的隐私可能会损害车辆通信的前景，
+因为匿名实体可能会故意向其邻居传递一些虚假和误导性的信息。因此，VANET实体应对道路上的重大事件或争议(如碰撞或交通堵塞)向相应的权威机构负责。
+2、目前的WAVE标准不包括有效的车辆信息匿名认证方案，甚至不包括能从大量车辆安全/应用信息中有效验证的智能认证策略。
+3、他们对ECDSA的修改是不安全的秘密密钥恢复攻击，任何人只是窃听都可以从传输的签名消息恢复OBUs '或移动节点的私钥
