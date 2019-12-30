@@ -1,0 +1,9 @@
+2019.12.30 星期一
+1、Asaar, M. R., Salmasizadeh, M., Susilo, W., & Majidi, A. (2018). A secure and efficient authentication technique for vehicular ad-hoc networks. IEEE Transactions on Vehicular Technology, 67(6), 5409-5423.在看这篇论文。
+2、这个方案是基于PBAS的，Y. Liu, L. Wang, and H.-H. Chen, “Message authentication using proxy vehicles in vehicular ad hoc networks,” IEEE Trans. Veh. Technol., vol. 64,
+no. 8, pp. 3697–3710, Aug. 2015.
+其中一个双线性配对公式怎么算怎么感觉不多，又找到原论文看了一下！别人写的对，换到这里怎么算怎么不对。
+提出这个方案的安全性问题并进行分析。存在的问题如下
+（1）可以从车辆的签名中获取车辆的私钥。
+（2）在进行批验证过程中没有使用向量所以伪造的时候一减一加可以消去，验证者是检查不出来的。
+之后提出自己的方案，也就是改进！通过mod q 在验证的时候加上向量，不使用双线性配对解决了存在的问题，并降低了验证成本！
