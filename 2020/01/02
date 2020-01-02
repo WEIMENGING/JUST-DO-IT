@@ -1,0 +1,9 @@
+2020.01.02 星期四
+1、看5G通信协议，有介绍单跳，多跳，也就是车辆之间转发。
+学习到车辆之间成群，选出一个群头（可是这么说吧），只需要群头与RSU通信，而不需要每个车辆与RSU通信，这是一个趋势，
+但是群成员的更新很快，如何成群这将是一个挑战，
+之前我说想要选择代理车辆进行对路况进行汇报，也算是一回事吧都是选择车辆而不是每个车辆都要汇报。想要侧重于这边面做。
+2、好论文不多，我找了一篇与区块链结合的论文，计划下一步看一下！
+Feng, Q., He, D., Zeadally, S., & Liang, K. (2019). 
+BPAS: Blockchain-Assisted Privacy-Preserving Authentication System for Vehicular Ad-Hoc Networks. 
+IEEE Transactions on Industrial Informatics.
