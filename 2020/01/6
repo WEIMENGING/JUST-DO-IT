@@ -1,0 +1,8 @@
+2020.01.06 星期一
+Feng, Q., He, D., Zeadally, S., & Liang, K. (2019). BPAS: Blockchain-Assisted Privacy-Preserving Authentication System for Vehicular Ad-Hoc Networks. IEEE Transactions on Industrial Informatics.
+1、在看这篇论文的方案。借助着安全性分析来看的。
+安全性分析中特别的两条：
+1）在BPAS中，TA在注册阶段为车辆生成身份验证信息，在此之后，rsu或其他车辆（没有TA）可以对每辆车辆进行身份验证。因此，bpa可以满足单次注册的要求。
+2）TA在整个身份验证阶段都没有参与。因此，BPAS可以在没有在线注册中心的情况下实现认证。只有车辆与RSU进行认证。
+2、由于该论文牵扯到区块链，对很多地方也很模糊，所以又看了引言部分
+3、论文中还有很多不是很明白，计划再仔细分析分析。
