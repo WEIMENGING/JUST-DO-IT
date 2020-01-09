@@ -1,0 +1,9 @@
+2020.01.09 星期四
+Feng, Q., He, D., Zeadally, S., & Liang, K. (2019).
+BPAS: Blockchain-Assisted Privacy-Preserving Authentication System for Vehicular Ad-Hoc Networks. 
+IEEE Transactions on Industrial Informatics.
+由于本篇中有使用到基于属性的加密，我不够理解怎么来的，所以找来引用的那篇论文来看。
+Bethencourt, J., Sahai, A., & Waters, B. (2007, May). Ciphertext-policy attribute-based encryption. 
+In 2007 IEEE symposium on security and privacy (SP'07) (pp. 321-334). IEEE.
+1.基于属性加密用于访问控制，增加了灵活性，使得用途可以更加灵活，这是优点，
+但是基于属性的加密用在本文中计算开销很大，我想从这个地方角度应该可以对论文改进。
