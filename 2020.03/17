@@ -1,0 +1,9 @@
+2020.03.17 星期二
+Ma M, He D, Wang H, et al. An efficient and provably secure authenticated key agreement protocol for fog-based vehicular ad-hoc networks[J]. IEEE Internet of Things Journal, 2019, 6(5): 8065-8075.
+这篇论文的出发点是如今基于边缘的框架已经成熟，然而现有的方案计算成本过高，使用双线性配对不适合这样的网络框架。所以本文提出了无配对的秘钥协商。
+秘钥的协商有三方：车辆，雾节点，云。这三方协商出一个秘钥。
+RSU只是作为信息的传输，所以在方案当中并未重点提及。
+贡献点也就是无双线性配对。
+收获：感觉秘钥协商的过程那种底层的算法（想法）有时候可以借鉴，协商出公共的一个秘钥的这种过程思路。
+与Jia, X., He, D., Kumar, N., & Choo, K. K. R. (2019). Authenticated key agreement scheme for fog-driven IoT healthcare system. Wireless Networks, 25(8), 4737-4750.
+进行对比计算与通信开销。优势在于没有使用配对操作。在使得三者共有的一个值相等的时候不同，配对与点成的区别。
