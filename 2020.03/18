@@ -1,0 +1,4 @@
+2020.03.18 星期三
+看论文发表在TDSC上的，2020年，IoVCom: Reliable Comprehensive Communication System for Internet of Vehicles
+Trupil Limbasiya, Student Member, IEEE and Debasis Das, Member, IEEE
+贡献点：设计一个可靠的系统可以满足五个通信（车辆与车辆，车辆与传感器，车辆与RSU，车辆与基础设施，车辆与移动设备）(V2S, V2V, V2I, V2M, V2R)，使用单向哈希和椭圆曲线操作实现相互认证IoV实体(车辆、RSU、移动设备、无线传感器和基础设施)。
