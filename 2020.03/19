@@ -1,0 +1,7 @@
+2020.03.19 星期四
+继续看论文发表在TDSC上的，2020年，IoVCom: Reliable Comprehensive Communication System for Internet of Vehicles
+Trupil Limbasiya, Student Member, IEEE and Debasis Das, Member, IEEE
+贡献点：设计一个可靠的系统可以满足五个通信（车辆与车辆，车辆与传感器，车辆与RSU，车辆与基础设施，车辆与移动设备）(V2S, V2V, V2I, V2M, V2R)，使用单向哈希和椭圆曲线操作实现相互认证IoV实体(车辆、RSU、移动设备、无线传感器和基础设施)。
+公式很多，发现很多基于哈希与ECC的都是大量的通信验证计算过程，读起来很复杂的样子，其实很多是重复的。
+方案主要分为两个阶段，第一阶段注册与初始化阶段：是车辆，移动用户的注册，RSU，无线传感器与基础设施的初始化。第二阶段就是数据传输阶段：车辆和车辆，车辆和其他进行的交互与相互认证。
+为了对方案更理解计划继续看安全性分析与实验分析！
