@@ -1,0 +1,14 @@
+2020.03.20 星期五	
+继续看论文发表在TDSC上的，2020年，IoVCom: Reliable Comprehensive Communication System for Internet of Vehicles
+Trupil Limbasiya, Student Member, IEEE and Debasis Das, Member, IEEE
+五种通信（车辆与车辆，车辆与传感器，车辆与RSU，车辆与基础设施，车辆与移动设备）(V2S, V2V, V2I, V2M, V2R)
+安全证明与分析（没有正式的证明，主要是分析）
+性能分析（5种通信的计算开销，通信开销，存储，（前三个开销都是通过计算的方式得到的结果）以及能量损耗（这个没有那么了解））
+我对该论文的理解：
+贡献点
+1、五种通信，比较全面
+2、基于哈希函数与ECC的高效通信
+与上篇看的感觉都是那种很多计算异或哈希的操作，不使用双线性配对操作！
+Ma M, He D, Wang H, et al. An efficient and provably secure authenticated key agreement protocol for fog-based vehicular ad-hoc networks[J]. IEEE Internet of Things Journal, 2019, 6(5): 8065-8075. 这篇论文的出发点是如今基于边缘的框架已经成熟，然而现有的方案计算成本过高，使用双线性配对不适合这样的网络框架。所以本文提出了无配对的秘钥协商。
+秘钥的协商有三方：车辆，雾节点，云。这三方协商出一个秘钥。
+这两篇论文用的时间很少，感觉没有想自己使用的东西！了解了其中通信如何解决安全与隐私问题！
