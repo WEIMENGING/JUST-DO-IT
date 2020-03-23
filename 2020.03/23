@@ -1,0 +1,7 @@
+2020.03.23 星期一
+看新论文：Edge-Assisted Vehicular Networks Security
+Jose A. Onieva , Ruben Rios , Rodrigo Roman , Member, IEEE and Javier Lopez
+IEEE INTERNET OF THINGS JOURNAL, VOL. 6, NO. 5, OCTOBER 2019
+本论文没有具体的方案，主要讲的是对模型的提出，
+先是介绍现有的工作（很泛指，像是调查总结的那种）举个例子现有的数字签名大多是基于对称，不对称，基于PKI，基于身份，群签名，当今对称与基于身份效果最好。
+接着说出现有的挑战。本文在对VEC的定义中，设想了三种部署方式可以无缝共存的模型。这些模型,虽然比其他作者设想的模型更简单，满足最可用和最实用的场景，他们可以用当前的技术和标准化工作实现。
