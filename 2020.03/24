@@ -1,0 +1,8 @@
+2020.03.24 星期二
+看了论文An Efficient Decentralized Key Management Mechanism for VANET with Blockchain
+这个也是之前找好的想看的论文，也就是上周程文丽汇报的那个，又顺了一遍。
+在思考一个问题，在认证的时候用到了那个函数的对称性相等的那个性质，那么为什么秘钥协商还需要重新计算呢？可不可以直接使用那个相等函数得到的值作为协商出来的秘钥呢？这是车辆与RSU进行协商，我想可以用于路况监测过程中车辆与RSU那段！
+针对这一问题，秘钥协商的问题，能否优化秘钥协商的过程呢？
+带着这个问题，再回过头看的关于秘钥协商的论文，那篇是三者协商Ma M, He D, Wang H, et al. An efficient and provably secure authenticated key agreement protocol for fog-based vehicular ad-hoc networks[J]. IEEE Internet of Things Journal, 2019, 6(5): 8065-8075.
+使用区块链那篇在认证与秘钥协商过程上使用了加密，解密。这是不足之处！
+还发现一个问题是，现在很多方案在性能分析中考虑了存储的开销，这个值得注意！
