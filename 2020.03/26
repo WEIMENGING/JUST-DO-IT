@@ -1,0 +1,5 @@
+2020.03.26 星期四
+看完了方案Extensible Conditional Privacy Protection Authentication Scheme for Secure Vehicular Networks in a Multi-Cloud Environment，
+1、方案，其实就是秘钥协商。整个方案主要也就是秘钥协商的过程。最大的创新点用我自己的话说是放在了多云的环境下，用户不需要判断去请求哪一个云，而是交给了由TA管理的CB去分析，这样方便了用户，解决了实际问题。
+2、除此之外，感觉语言表达很好。
+3、感觉在平时多思考什么问题需要被解决，针对这个问题用哪些简单的方法解决。
