@@ -1,0 +1,4 @@
+2020.03.31 星期二
+1、看论文18年的Comments and Corrections Comments on “Dual Authentication and Key Management Techniques for Secure Data Transmission in Vehicular Ad Hoc Networks”就是说对上次看的论文的一个评论与更正。说上篇论文不抵抗重播攻击与冒充攻击，并给出了方案。
+2、看论文19年的Comments and Replies Reply to Comments on “Dual Authentication and Key Management Techniques for Secure Data Transmission in Vehicular Ad Hoc Networks”给出了自己的解释，证明自己的方案是安全的。
+我没有仔细看，只看结果的话感觉原来的16年的应该是安全的，所以以16年的版本为准。
