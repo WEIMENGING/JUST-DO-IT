@@ -1,0 +1,9 @@
+2020.04.02 星期四
+看新论文18年发表在IOT上的A Dual Privacy Preserving Scheme in Continuous Location-Based Services
+Shaobo Zhang , Guojun Wang , Member, IEEE, Md Zakirul Alam Bhuiyan , Senior Member, IEEE, and Qin Liu , Member, IEEE
+1、贡献点如下：
+1)保护用户的位置与请求内容。有多个匿名者解决了一个问题：从单一的匿名者获取用户和隐私。
+2)使用Shamir阈值机制进行分割将查询内容分成多个子信息块，然后把它们发给多个匿名者。一个匿名者不知道查询内容。
+3)设计了转发消息的机制查询内容和结果被多次转发。它可以有效地缓解性能瓶颈单一的匿名化和解决单一TTP的故障点。
+4)实现了安全性，此外成本很低！
+计划明天继续看，很多预备知识之前是没看到过的。想了解一下！
