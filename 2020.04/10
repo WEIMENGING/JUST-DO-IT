@@ -1,0 +1,9 @@
+2020.04.10 星期五
+继续看论文2020，Ad Hoc Networks
+Authentication protocol in CTNs for a CWD-WPT charging system in a cloud environment
+Luis F.A. Roman ∗, PauloR.L. Gondim
+本文的背景是：一种基于无线功率传输(WPT)技术的充电系统（电动汽车）。
+框架：云与雾的混合。
+技术：盲签名，短签名。
+涉及秘钥管理与分发，所有的实体之间实现相互认证。
+下一步继续看再详细介绍！
