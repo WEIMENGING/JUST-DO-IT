@@ -1,0 +1,5 @@
+2020.04.16 星期四
+18年发表在IOT上的A Dual Privacy Preserving Scheme in Continuous Location-Based Services
+Shaobo Zhang , Guojun Wang , Member, IEEE, Md Zakirul Alam Bhuiyan , Senior Member, IEEE, and Qin Liu , Member, IEEE
+新的收获
+1、仔细看关于本文的默克尔树的构建部分，明白了为何构造2-3元素默克尔树对元素个数的规定，这其实就是对候选兴趣点子集的一个确定，也就是说一个子集中兴趣点的个数必须满足是2或者3的倍数。
