@@ -1,0 +1,11 @@
+2020.04.20 星期一
+看新的论文2019发表在TVT上的Secure Real-time Traffic Data Aggregation with Batch Verification for Vehicular Cloud in VANETs
+Jian Shen, Dengzhi Liu, Xiaofeng Chen, Jin Li, Neeraj Kumar, Pandi Vijayakumar
+1、背景：车辆中交通数据的汇总云，它可以进一步聚合来自车辆的交通数据处理和共享，是非常重要的。在本文中，通过使用消息恢复签名中的数据恢复属性(MRS)，提出了一个安全的实时交通数据聚合VANETs的车辆云方案。对车辆签名的有效性进行验证，然后进行从签名中恢复原始数据。
+2、在预备知识中以算法的格式介绍了消息恢复签名：MRS不仅可以验证消息签名的有效性，还可以恢复相应的消息。 
+3、系统模型有：车联网云（可以理解为就是云VC），可信第三方（TCS），RSU（在本文中说是完全可信的），OBU。	
+4、实现的功能：1）签名验证；2）原始数据恢复：仅有可信的第三方TCS可以恢复出原始数据；3）数据完整性检测；4）批验证
+5、安全目标：1）数据机密性：只有TCS可以知道数据；2）隐私保护；3）重播攻击
+6、贡献点：1）消息恢复签名算法的使用降低了计算成本。2）支持批验证。3）安全性
+7、个人收获：收获最大的是这里面消息恢复签名算法的使用。和签密算法的功能有点像，但又不是。在构造上恢复的过程看起来感觉很神奇！其中这个消息恢复签名算法参考2006年的一篇论文R. Tso, C. Gu, T. Okamoto, and E. Okamoto, “An efficient id-based digital signature with message recovery based on pairing,” IACR Cryptology ePrint Archive, vol. 2006, no. 195, pp. 1–15, 2006.用在这里恰到好处。其中实验与两篇论文进行对比，这两篇论文一个是2010年一个是2013年的。本来想看2006年的那篇但是搜索的时候发现不存在。
+8、我认为这篇论文的缺点：RSU是完全可信的，车辆的公私钥由RSU来颁发感觉不太合适。此外，车辆的真实身份是不可以追踪的。
