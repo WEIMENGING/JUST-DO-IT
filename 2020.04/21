@@ -1,0 +1,15 @@
+2020.04.21 星期二
+阅读新的论文17年发表在TIFS上的BASIS: A Practical Multi-User Broadcast Authentication Scheme in Wireless Sensor Networks
+IEEE TRANSACTIONS ON INFORMATION FORENSICS AND SECURITY, VOL. 12, NO. 7, JULY 2017
+Kyung-Ah Shim
+与上篇论文2019发表在TVT上的Secure Real-time Traffic Data Aggregation with Batch Verification for Vehicular Cloud in VANETs
+Jian Shen, Dengzhi Liu, Xiaofeng Chen, Jin Li, Neeraj Kumar, Pandi Vijayakumar
+相同点是都有消息恢复：在签名中恢复出消息原文。不需传输密文。
+消息恢复的好处：在带消息恢复的签名方案中，一种消息不需要与签名一起传送，因为它可以根据消息恢复验证中的恢复过程。
+与认证加密或者签密不一样，加密或签密的特点是带有任何秘密信息的人都可以恢复。
+1、背景：如今基于身份的方案使用了双线性配对。本文不使用双线性配对。
+2、贡献点1）提出了一个基于身份的完整恢复的方案以及半恢复的方案，不使用双线性配对操作；2）构造了一个实用的多用户方案；3）在安全性能成本方面表现性能好
+3、在预备知识中给出了两个算法：带有完整恢复的签名方案MR-IBS，带有半恢复的签名方案PMR-IBS。
+4、系统模型，一个可信的第三方，多个用户（类似于车辆），多个感知节点（类似于RSU）。
+5、具体的方案是基于上面的两个算法。其中两个算法的区别在于消息的大小，如果大于一定的字符串则是PMR-IBS算法，将整个消息进行划分成两块。否则不划分是MR-IBS。至于原因还在思考为何分成两种情况，关于PMR-IBS算法总感觉里面公式有错误。
+6、思考为何分成两种类型：我的理解是一个消息的大小是不固定的，如果字符串的个数小于k2，那么可以不用划分，符合带有恢复消息的签名，但是如果消息的字符串过长就不适合，需要进行划分，划分出来一个k2大小的字符串，在恢复的时候也是只可以恢复出分出来的那个字符串k2大小的字符串，而其他的部分就需要发送者发送过来！
