@@ -1,0 +1,8 @@
+2020.04.22 星期三
+看新的论文：16年发表在TIFS上的
+Authentication Scheme for Flexible Charging and Discharging of Mobile Vehicles in the V2G Networks
+Neetesh Saxena, Member, IEEE, and Bong Jun Choi, Member, IEEE
+看这一篇的原因是上周看了也是一篇关于电动汽车充电的系统。
+1、贡献点有1）提供了车辆与电网之间的相互认证。2）车辆的身份、位置、充放电选择，预计时间，电池状态，和其他个人信息在家里还是访问V2G网络都不被泄露。3）减少配对的使用从而降低计算开销。4）击败各种安全攻击，如replay、模拟、重定向、已知密钥和抵赖攻击，并保持信息机密性，完善转发保密和消息完整性。当一个用户的朋友尝试将车辆连接到CS代表用户的不当行为，双因素身份验证方案还可以击败内部攻击一个安装在网络上的恶意设备。5）也维护车辆的不可追踪性，向前隐私，车辆身份匿名，信息隐私。
+2、系统模型：有三个实体EVs(电动车辆),LAGs（当地的聚合者）, and CA/RAs（注册中心）。LAG与CA都分为三种，home,visiting, and central.
+3、具体方案也是分为三种情况下的认证。计划下一步看！
