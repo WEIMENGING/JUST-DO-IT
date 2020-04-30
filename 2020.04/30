@@ -1,0 +1,8 @@
+2020.04.30 星期四
+1、继续看论文16年发表在TIFS上的
+Authentication Scheme for Flexible Charging and Discharging of Mobile Vehicles in the V2G Networks
+Neetesh Saxena, Member, IEEE, and Bong Jun Choi, Member, IEEE
+论文方案很长，分为三个方面，先看了第一个方面。主要过程是初始化阶段，三个实体拥有公私钥对。其次是车辆的注册过程，在这个过程当中CA为车辆生成匿名身份。第三个阶段是CA与LAG的之间的通信。最后阶段是方案的执行。方案执行的过程中有车辆与LAG的相互认证（这个是该论文的创新点）。
+重放电实现的过程中有用到签名认证。支持批验证。
+2、开会
+3、计划假期把这篇论文看完！
