@@ -1,0 +1,8 @@
+2020.05.06 星期三
+1、总结论文：（上次说未看完的）记得当时汇报的时候我说没有用到新技术，因为使用到的感觉上没有什么新意。如果总结来说使用到技术就是：秘钥协商+双线性配对+双线性配对的累加器。论文还有不懂，想先放下，感觉没有可以用的点。
+论文16年发表在TIFS上的
+Authentication Scheme for Flexible Charging and Discharging of Mobile Vehicles in the V2G Networks
+Neetesh Saxena, Member, IEEE, and Bong Jun Choi, Member, IEEE
+故事：在分布式网络中，车辆也可以进行移动访问V2G充放电网络。另一方面，车辆只能在集中的地方放电V2G网络。
+新技术：双线性配对的累加器:累加器是单向函数，用于在不透露其他成员身份的情况下验证候选对象是否为成员，也就是说判断一个给定候选是在集合中的一员。
+2、
