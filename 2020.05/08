@@ -1,0 +1,9 @@
+2020.05.08 星期五
+看新的论文18年发表在TVT上的Privacy-Preserving Smart Parking Navigation
+Supporting Efficient Driving Guidance Retrieval
+Jianbing Ni , Student Member, IEEE, Kuan Zhang , Member, IEEE, Yong Yu , Member, IEEE, Xiaodong Lin , Fellow, IEEE, and Xuemin Shen , Fellow, IEEE
+1、摘要：减少驾驶人的麻烦及保护驾驶人隐私，提出了一个隐私保护智能停车导航
+系统(P-SPAN)具有高效的导航结果检索功能使用Bloom过滤器的驱动程序。P-SPAN使云能够引导车辆实时到目的地的空置停车位停车信息不透露任何关于司机个人信息。具体来说，就是一种高效的数据检索机制基于Bloom过滤器开发，支持导航结果检索。司机可以匿名查询可访问的停车位云，并有效从RSU检索加密导航的结果。
+2、贡献点总结为三点：1）允许车辆去向云访问停车点。2）实现了条件隐私保护。3）高效的数据检索机制，使用过滤器增加车辆成功检索的可能性。
+3、系统模型有四个实体：云（提供停车空间管理服务和智能停车导航服务），可信中心（为车辆注册，为所有的实体颁发公钥证书），RSU，车辆。
+4、方案在看中！
