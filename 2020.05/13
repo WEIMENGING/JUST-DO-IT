@@ -1,0 +1,3 @@
+2020.05.13 星期三
+1、看了关于找到论文的介绍过滤器When private set intersection meets big data: An efficient and scalable protocol的部分，使用到了秘密共享（分成若干份，存储到过滤器中），以算法的形式展现了构建、插入元素到过滤器的过程。介绍了更加详细些。
+2、由于Privacy-Preserving Smart Parking Navigation Supporting Efficient Driving Guidance Retrieval方案本身太复杂，还不太熟悉，所以又顺顺方案。其中还有一些符号没有顺明白。
