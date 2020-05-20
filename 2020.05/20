@@ -1,0 +1,11 @@
+2020.5.20 星期三
+今天调研发现已经有一篇论文和我的想法相似所以看了这篇论文Privacy-Preserving Smart Parking System Using Blockchain and Private Information Retrieval
+Wesam Al Amiri, Mohamed Baza, Karim Banawan†, Mohamed Mahmoud,
+Waleed Alasmary‡, Kemal Akkaya§Department of Electrical and Computer Engineering, Tennessee Tech University, Cookeville, TN, USA †Department of Electrical Engineering, Faculty of Engineering, Alexandria University, Alexandria, Egypt
+‡Department of Computer Engineering, Umm Al-Qura University, Makkah, Saudi Arabia
+§Department of Electrical and Computer Engineering, Florida International University, Miami, FL, USA
+做同样的事情，但是和我想要解决的问题，针对性是不一样的，这篇论文在论文中说据他们所知这是第一篇使用区块链解决停车系统的论文。
+并且有一个好的点是里面有一两句话是说停车有是否可以充电的选项。
+其实把我想的他也有写了。再思考调研吧，不过真正解决的问题是不一样的。
+这篇没有按照车联网的模型来算，没有RSU这些，就是纯正的智能停车系统。
+而我想做的是在车联网的环境下做，而不是驾驶员只是通过手机预订这些，所以总的来说还是不一样的！
