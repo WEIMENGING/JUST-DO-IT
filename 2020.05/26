@@ -1,0 +1,11 @@
+2020.05.26 星期二
+1、继续看论文Privacy-Preserving Smart Parking System Using Blockchain and Private Information Retrieval
+Wesam Al Amiri, Mohamed Baza, Karim Banawan†, Mohamed Mahmoud,Waleed Alasmary‡, Kemal Akkaya§
+这篇论文写得引用别人很多所以也省略了很多。其中有用到一个技术是：（私有信息检索(PIR)涉及到设计一种方案，让用户从存储系统中检索某个文件，而不向服务器显示该文件的身份）在这篇论文中有详细介绍Private Information Retrieval from Coded Storage Systems with Colluding, Byzantine, and Unresponsive Servers。
+预备知识介绍是一个用户下载第j个文件，但是不泄露任何索引j信息（向每一个服务器）.用户生成一个询问给服务器j，该服务器生成回应，然后用户可以使用这个回应计算得到第j个文件。但下载的并不都是有用的，衡量这种方案的标准就是检索率：有用的数据与下载总数据的比值。
+仔细看的话过程看不懂。
+回到停车系统那篇论文中PIR的应用，可以用来实现用户（从服务器）下载某个文件而不被别人（服务器）知道真的下载的是哪个。这样有可以保护车辆的位置隐私（针对停车系统）。这是文中的第二个创新点。第一个创新点就是使用了区块链解决了单点故障等问题。
+2、再回过头看论文18年发表在TVT上的Privacy-Preserving Smart Parking Navigation
+Supporting Efficient Driving Guidance Retrieval
+Jianbing Ni , Student Member, IEEE, Kuan Zhang , Member, IEEE, Yong Yu , Member, IEEE, Xiaodong Lin , Fellow, IEEE, and Xuemin Shen , Fellow, IEEE
+主要看的是这篇论文存在哪些问题，在相关工作里面别人的什么问题，思考我想要解决什么问题！
