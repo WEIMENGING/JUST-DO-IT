@@ -1,0 +1,7 @@
+2020.05.27 星期三
+继续看论文18年发表在TVT上的Privacy-Preserving Smart Parking Navigation
+Supporting Efficient Driving Guidance Retrieval
+Jianbing Ni , Student Member, IEEE, Kuan Zhang , Member, IEEE, Yong Yu , Member, IEEE, Xiaodong Lin , Fellow, IEEE, and Xuemin Shen , Fellow, IEEE
+1、对论文方案又熟悉了一下，比如理解了为何RSU与车辆不需要一直保持联系便可以实现车辆可以从经过的RSU那获得云发来的停车位置信息，大局上来说是云发给更多的RSU，更深的理解是，云和车会协商一个会话密钥，RSU根据这个密钥对应到针对某个车辆需要访问的内容。其实有点像密钥协商，虽然在方案中并没有说是协商密钥。因为这个密钥是可以公开的。
+2、思考一个问题如果其他车辆知道这个密钥可以从RSU得到这个停车信息吗？好像是可以的，我想打算下次可以在咱们小组会上汇报这篇讨论一下，如果这样的话那么可能会有冲突，被别人强占而不付钱。
+3、由于过滤器的使用会存在错误正确概率，这方面的计算看不懂。
