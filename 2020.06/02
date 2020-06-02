@@ -1,0 +1,6 @@
+2020.06.02 星期二
+1、继续分析论文18年发表在TVT上的Privacy-Preserving Smart Parking Navigation
+Supporting Efficient Driving Guidance Retrieval
+Jianbing Ni , Student Member, IEEE, Kuan Zhang , Member, IEEE, Yong Yu , Member, IEEE, Xiaodong Lin , Fellow, IEEE, and Xuemin Shen , Fellow, IEEE
+把困难问题加进了PPT，这里面的困难问题带进方案中有点绕。将安全性分析带进方案顺了一下搞懂了公私钥匿名证书为什么要这样生成的原因。
+2、计划再找之前的那篇充电的论文看！因为充电那篇是基于秘钥协商，车辆如何与RSU下的每个充电点（就像是之前的共享单车停在卡好那个桩才可以停止收费这种模式，这里的桩也就是算是一个充电点），主要看详细的应用背景以及具体实现！
