@@ -1,0 +1,3 @@
+2020.06.28 星期日
+看新论文18年发表在VC上的论文 EPA-CPPA: An efficient, provably-secure and anonymous conditional privacy-preserving authentication scheme for vehicular ad hoc networks
+写作动机是现有的CPPA方案存在的问题:私钥的安全性，在证书生成，消息验证阶段的高的计算开销。
