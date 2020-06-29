@@ -1,0 +1,7 @@
+2020.06.29 星期一
+继续看论文18年发表在VC上的论文 EPA-CPPA: An efficient, provably-secure and anonymous conditional privacy-preserving authentication scheme for vehicular ad hoc networks
+贡献点有：1）首先，回顾和分析了现有方案的漏洞。同时指出了这些方案存在的几个安全缺陷。然后给出了由网络模型和设计目标组成的车载系统体系结构。
+2）论文提出了一种针对vanet的有效的、可证明安全的、匿名的CPPA协议。为了进一步改进效率使用了批验证功能。
+3）预言机模型下给出了安全性证明。满足安全隐私性需求。
+4）对方案的计算与通信成本进行分析，表现更好。
+具体方案内容在看！
