@@ -1,0 +1,6 @@
+2020.06.30 星期二
+继续看论文18年发表在VC上的论文 EPA-CPPA: An efficient, provably-secure and anonymous conditional privacy-preserving authentication scheme for vehicular ad hoc networks
+1、在车辆的匿名生成的时候使用到的是一下子生成很多匿名身份。车辆需要存储起来以备使用。
+2、除了车辆的身份隐藏外，RSU发送给车辆消息的时候也是一样的方式对自己的身份进行隐藏。（这一点是之前没有见过的）
+3、在计算开销方面与15年何老师对比是占优势的！
+4、收获：贡献点是安全性与计算开销方面表现好，主要是源于方案匿名身份与签名的构造！
