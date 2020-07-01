@@ -1,0 +1,7 @@
+2020.07.01 星期一
+看新论文2020发表在TVT上的On the Design of Conditional Privacy Preserving Batch Verification-Based Authentication Scheme for Internet of Vehicles Deployment
+题目中的IOV其实也可以是车联网，在论文中有介绍说明到，所以也是车联网中认证的论文。
+
+本文设计了一个新的基于批处理验证的有条件隐私保护认证机制在IoV环境中（使用椭圆曲线加密(ECC)技术），车辆可以进行身份验证它的邻居车辆和路边单元(RSU)可以进行身份验证它附近的一批车辆。
+同样的都是CPPA贡献点仍然是使用了ECC，支持批验证。
+主要想看的是怎么具体实现的，体现在哪里？
