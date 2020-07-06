@@ -1,0 +1,4 @@
+2020.07.06 星期一
+继续看论文2020发表在TVT上的On the Design of Conditional Privacy Preserving Batch Verification-Based Authentication Scheme for Internet of Vehicles Deployment
+对着安全性分析对方案进行分析！
+缺点：RSU是完全可信的！这里的RSU为车辆生成伪身份，TA可以追踪！
