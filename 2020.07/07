@@ -1,0 +1,5 @@
+2020.07.07 星期二
+继续看论文2020发表在TVT上的On the Design of Conditional Privacy Preserving Batch Verification-Based Authentication Scheme for Internet of Vehicles Deployment
+1、安全性分析可以实现认证、条件隐私保护、不可链接性、抵抗重播攻击、冒充攻击、中间人攻击、秘钥托管问题（主要是因为KGC会为车辆生成部分公私钥，之后车辆根据这些部分公私钥再次生成公私钥，这样保证了恶意的KGC也是不可以伪造车辆的，因为车辆的私钥不被任何第三方知道的）
+2、性能分析是从三个方面进行分析与对比的：计算+通信+存储
+3、本文所实现的贡献点已很常见，ECC+CPPA+批验证
