@@ -1,0 +1,8 @@
+2020.07.10 星期五
+继续看论文2020年5月发表在TVT上的
+FBIA: A Fog-Based Identity Authentication Scheme for Privacy Preservation in Internet of Vehicles
+Liangjun Song, Gang Sun , Member, IEEE, Hongfang Yu , Xiaojiang Du , Fellow, IEEE,
+and Mohsen Guizani , Fellow, IEEE
+不仅在车辆申请加入雾的时候对车辆的认证，而且车辆在雾中的整个过程都有被雾头监视。监视的目的是可能会存在车辆使用合法身份的不合格车辆加入雾中。或者合法车辆的信息传输设备在信息传递过程中失败，对车辆的沟通造成安全隐患。这样达到了双重认证。不仅对车辆的加入进行审核，而且加入后也进行监督。
+想到之前有方案除了对车辆进行认证之外，还实施激励政策，这些事件可以作为后续车辆声誉评估的持续证据，但是对激励过程的处理需要很大的管理成本，此外，无法事先阻止恶意行为。
+然而这篇论文可以被认为解决了这个问题。
