@@ -1,0 +1,9 @@
+2020.07.23 星期四
+继续论文2020TVT上的论文Privacy-Preserving Authentication Scheme for Connected Electric Vehicles Using Blockchain and Zero Knowledge Proofs
+David Gabay , Kemal Akkaya, Senior Member, IEEE, andMumin Cebe
+有用到技术
+1、区块链，在区块链有智能合约，把一些协议代码写在区块链上。优势有：1）解决了单点故障问题2）匿名支付3）分布式相信：意思是交易是公开的，被验证的，交易出错的几率变小。而且区块链具有不可改变性。
+2、零知识证明。
+3、Zero-Knowledge Succinct Non-interactive ARguments of Knowledge (zkSNARKs)零知识简洁的非交互论点应用在本文中，也适合区块链的场景，说明了原因。
+4、Simulation-Extractable Succinct Noninteractive ARgument of Knowledge (SE-SNARKs) 这个是比上个技术有所改进，不过也是应用别人的。
+5、Pederson承诺：是一个非交互可验证的秘密共享方案
