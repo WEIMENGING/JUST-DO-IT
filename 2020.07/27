@@ -1,0 +1,6 @@
+2020.07.27 星期一
+继续论文2020TVT上的论文Privacy-Preserving Authentication Scheme for Connected Electric Vehicles Using Blockchain and Zero Knowledge Proofs
+David Gabay , Kemal Akkaya, Senior Member, IEEE, andMumin Cebe
+基于令牌（票）的方案。这里有两种票：一种是服务令牌，每辆车支付一样的押金。一种是充电令牌，这个是用于充电的令牌。只有获得服务令牌后满足一定条件才可以获得充电令牌。
+主要过程概括：车辆充电服务提供者（EVSP）会生成一个秘密函数和验证秘钥（VK），证明秘钥（PK）.VK发给车辆，PK发给区块链智能合同。当车辆收到后，会使用秘密函数去创建目击者，携带验证秘钥生成一个证明（表明它拥有秘密函数）。之后联系一个区块链认证合同并给出证明，一旦证明通过那么区块链会为车辆生成服务令牌。当车辆需要停车时提交一些信息比如停车时间，然后智能合同会颁发充电令牌给车辆。车辆使用充电令牌进行充电，当然这个过程会有充电站对车辆的认证。
+这些这个方案的思路，其中的底层方案是基于别人论文中的密码学加密认证方案。
