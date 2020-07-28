@@ -1,0 +1,7 @@
+2020.07.28 星期二
+继续看论文2020TVT上的论文Privacy-Preserving Authentication Scheme for Connected Electric Vehicles Using Blockchain and Zero Knowledge Proofs
+David Gabay , Kemal Akkaya, Senior Member, IEEE, andMumin Cebe
+看论文方案中Pederson承诺的方案，是对基于令牌方案的改进。
+作为令牌的替代，采用Pederson佩德森承诺方案是一种共享秘密的方法，既绑定又隐藏的秘密。这提高了框架的效率和降低成本通过在链上执行的事务，包括删除调度、收费事务完成。在佩德森的方法中，没有人能做到推断是谁提交了承诺，并且仅是提交者能够证明他/她提交了承诺。
+佩德森方案的思路是：证明者将消息与随机数进行处理，得到一个承诺。
+验证者重新使用消息与随机数构造承诺看是否与收到的一致。
