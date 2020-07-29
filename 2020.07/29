@@ -1,0 +1,8 @@
+2020.07.29 星期三
+论文2020TVT上的论文Privacy-Preserving Authentication Scheme for Connected Electric Vehicles Using Blockchain and Zero Knowledge Proofs
+David Gabay , Kemal Akkaya, Senior Member, IEEE, andMumin Cebe
+总结：
+背景：电动汽车充电，向服务提供商暴露位置隐私，充电模式，行为习惯等。然而电动汽车仍然需要验证。对收费提供商来说，这意味着一些信息无论如何都需要提供。也就是说认证过程中实现隐私保护。
+也就是说，电动汽车在充电时实现隐私保护认证。（只有通过认证的车辆才可以得到服务，在认证过程中又不泄露车辆的隐私）
+由于电动服务中心可能会知道所有电动汽车的隐私信息，所以本文考虑的是去中心化结构，利用分布式体系结构的区块链技术。
+本文：通过区块链与智能合约设计一个分布式应用。向区块链采用零知识证明，实现隐私保护认证，可以不依赖于可信的第三方。引用了两种方法，1）基于令牌的方法2）基于佩德森承诺的方法，实现匿名认证。
