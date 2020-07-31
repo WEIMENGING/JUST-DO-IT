@@ -1,0 +1,6 @@
+2020.07.31 星期五
+看发在TDSC上，就打算具体看一下Privacy-Preserving Cloud Establishment and Data Dissemination Scheme for Vehicular Cloud，张磊老师的。
+贡献点有：
+1）允许相近的一组车辆安全匿名动态地形成VC，任何云用户都可以在VC中安全地匿名地处理消息。
+2）支持三种数据发布模式：内部、近距离、远程使用模式。
+用到的技术：基于身份，非对称组秘钥。
