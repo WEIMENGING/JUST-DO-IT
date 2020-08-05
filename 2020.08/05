@@ -1,0 +1,8 @@
+2020.08.05 星期三
+继续看论文18年发表在TDSC上的一篇论文Privacy-Preserving Cloud Establishment and Data Dissemination Scheme for Vehicular Cloud
+Lei Zhang, Member, IEEE, Xinyu Meng, Kim-Kwang Raymond Choo, Senior Member, IEEE,
+Yuanfei Zhang, Feifei Dai
+方案本身写的很复杂。知道大概思路就是除了基本的初始化注册外，最核心的是VC（车辆云）的建立，群加密秘钥的生成与各自解密秘钥的生成，这个过程与群秘钥是不同的。可以实现群成员的加入与离开。支持三种通信模式：内部的车辆与VC通信，近距离的车辆与VC通信，远程使用模式通信。
+内部使用模式：直接是用户使用加密秘钥加密传输消息即可，只有VC内的车辆可以解密。
+临近使用模式：与内部不一样的是需要对VC的签名进行验证。
+远程使用模式通信：要处理的消息是否对地址敏感。不敏感和临近使用模式一样。如果敏感基于映射函数给固定位置。只有固定位置的车辆才可以得到哈希秘钥。
