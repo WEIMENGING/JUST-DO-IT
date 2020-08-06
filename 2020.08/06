@@ -1,0 +1,15 @@
+2020.08.06 星期四
+总结最近看的两篇论文，感觉最近看的论文很复杂，
+2020TVT上的论文Privacy-Preserving Authentication Scheme for Connected Electric Vehicles Using Blockchain and Zero Knowledge Proofs
+David Gabay , Kemal Akkaya, Senior Member, IEEE, andMumin Cebe
+技术：区块链+零知识证明
+论文18年发表在TDSC上的一篇论文Privacy-Preserving  Cloud Establishment and Data Dissemination Scheme for Vehicular Cloud
+Lei Zhang, Member, IEEE, Xinyu Meng, Kim-Kwang Raymond Choo, Senior Member, IEEE,
+Yuanfei Zhang, Feifei Dai
+技术：
+1）基于身份的公钥密码系统ID-PKC。
+2）非对称组密钥协议(AGKA)：这里的车辆云与群是不一样的！这里是一个VC中的车辆建立一个公共的秘钥，与各自的解密秘钥。解密秘钥可以发布，拥有解密秘钥，即使不在群内的用户也是可以对消息进行解密的。本文将AGKA扩充至动态基于身份验证的非对称组密钥协议(DIBAAGKA)协议，可以动态实现车辆的进入与离开，群成员个数不是固定的。
+3）基于位置的加密(LBE)方案：它允许发送者发送加密的消息到指定的区域内，以便只有在指定区域的实体可以解密密文。只有满足时间和区域限制的接收人才能够恢复密钥。
+第三个技术其实就是用来实现远程车辆之间的通信，比如一个车辆距离车辆云VC很远，需要发送消息。
+目前用不上，还没有找到可以应用的场景...
+计划接下来审稿
